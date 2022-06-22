@@ -5,5 +5,10 @@ num.push(1) // adicionar o número em parenteses na última posição do vetor
 console.log(num)
 console.log(`O vetor tem ${num.length} posições`)
 console.log(`O primeiro valor do vetor é ${num[1]}`)
-var pos = num.indexOf(8)
-console.log(`O valor 8 está na posição ${pos}`)
+var pos = num.indexOf(4)
+if (pos < 0 ) {
+    console.log ('O valor não foi encontrado!')
+} else {
+    console.log(`O valor 8 está na posição ${pos}`)
+}
+
