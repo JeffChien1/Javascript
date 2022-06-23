@@ -19,3 +19,4 @@ for(var pos=0; pos < valores.length; pos++) {
 for (var pos in valores) {
     console.log (`A posição ${pos} tem o valor ${valores[pos]}`)
 }
+
